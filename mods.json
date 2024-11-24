@@ -9,58 +9,20 @@
          "group" : "Core"
       },
       {
-         "name" : "Gorilla Cosmetics",
+         "name" : "Custom Platform Manager",
          "tag" : "",
-         "gitPath" : "legoandmars/GorillaCosmetics",
-         "releaseId" : 0,
-         "author" : "Bobbie",
-         "group" : "Cosmetic",
-         "dependencies" : [
-          "Newtonsoft.JSON"
-         ]
+         "gitPath" : "zaynethedev/CustomPlatformManager",
+         "releaseId" : 1,
+         "author" : "ZayneTheDev",
+         "group" : "Gameplay"
       },
       {
-         "name" : "Monke Map Loader",
+         "name" : "Newtilla",
          "tag" : "",
-         "gitPath" : "Vadix88/MonkeMapLoader",
+         "gitPath" : "Lofiat/Newtilla",
          "releaseId" : 0,
-         "author" : "Vadix",
-         "group" : "Gameplay",
-         "dependencies" : [
-          "Newtonsoft.JSON",
-          "Utilla",
-          "Computer Interface"
-         ]
-      },
-      {
-         "name" : "Space Monke",
-         "tag" : "",
-         "gitPath" : "legoandmars/SpaceMonke",
-         "releaseId" : 0,
-         "author" : "Bobbie",
-         "group" : "Gameplay",
-         "dependencies" : [
-           "Utilla"
-          ]
-      },
-      {
-         "name" : "Utilla",
-         "tag" : "",
-         "gitPath" : "legoandmars/Utilla",
-         "releaseId" : 0,
-         "author" : "Bobbie",
+         "author" : "Lofiat",
          "group" : "Libraries"
-      },
-      {
-        "name" : "Computer Interface",
-        "tag" : "",
-        "gitPath" : "ToniMacaroni/ComputerInterface",
-        "releaseId": 0,
-        "author" : "Toni Macaroni",
-        "group" : "Libraries",
-        "dependencies" : [
-          "Bepinject"
-        ]
       },
       {
         "name" : "Bepinject",
@@ -84,11 +46,27 @@
         "installPath" : "BepInEx/plugins"
       },
       {
+         "name" : "HoneyLib",
+         "tag" : "",
+         "gitPath" : "BzzzThe18th/HoneyLib",
+         "releaseId" : 0,
+         "author" : "Buzz",
+         "group" : "Libraries"
+      },
+      {
          "name" : "Newtonsoft.JSON",
          "tag" : "",
          "gitPath" : "legoandmars/Newtonsoft.Json",
          "releaseId" : 0,
          "author" : "James Newton-King",
+         "group" : "Libraries"
+      },
+      {
+         "name" : "TMPLoader",
+         "tag" : "",
+         "gitPath" : "AHauntedArmy/TMPLoader",
+         "releaseId" : 0,
+         "author" : "AHauntedArmy",
          "group" : "Libraries"
       }
    ],
@@ -98,16 +76,12 @@
        "rank" : 0
      },
      {
-       "name" : "Cosmetic",
+       "name" : "Gameplay",
        "rank" : 1
      },
      {
-       "name" : "Gameplay",
-       "rank" : 2
-     },
-     {
        "name" : "Libraries",
-       "rank" : 3
+       "rank" : 2
      }
    ]
 }
